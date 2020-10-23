@@ -19,36 +19,12 @@
 	text-decoration: none;
 	outline: none;
 }
-html,
-body{
-	height: 100%;
-	width: 100%;
+
+.container {
+	max-width: 1110px;
+	margin: 0px auto;
 }
-
-
-
 @import "_header.scss";
 
-/* ibg  */
-.ibg{
-
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-position: relative;
-}
-
-.ibg > img{
-
-width: 0;
-height: 0;
-position: absolute;
-top: 0;
-left: 0;
-opacity: 0;
-visibility: hidden;
-}
-
-/* ibg  */
 
 @import "_footer.scss";

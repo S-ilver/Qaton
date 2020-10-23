@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Playfair Display";
+  font-display: swap;
+  src: url("../fonts/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/PlayfairDisplayRegular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-display: swap;
+  src: url("../fonts/Playfair Display Bold.woff") format("woff"), url("../fonts/Playfair Display Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Post No Bills Jaffna";
+  font-display: swap;
+  src: url("../fonts/PostNoBillsJaffna-Bold.woff") format("woff"), url("../fonts/PostNoBillsJaffna-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,32 +33,66 @@
   outline: none;
 }
 
-html,
-body {
-  height: 100%;
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+}
+
+/* header style */
+
+.header-one {
   width: 100%;
+  padding: 14px 0px;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-/* ibg  */
-
-.ibg {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+.header-one__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.ibg > img {
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
+.header-one__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-/* ibg  */
+.header-one__info span {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #969696;
+}
+
+.header-one__autos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: gray;
+}
+
+.header-one__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-one__in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* header style */
 
 /* footer style */
 
