@@ -1230,4 +1230,8 @@
   .first {
     overflow: auto;
   }
+
+  .first__rectangle {
+    margin-top: 27px;
+  }
 }
