@@ -1,3 +1,22 @@
 /* footer style */
+.footer {
+
+    &__row {
+        padding: 17px 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        & span {
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            color: #D0D0D0;
+            display: block;
+        }
+    }
+}
+
 
 /* footer style */
