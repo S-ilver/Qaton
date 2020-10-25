@@ -326,7 +326,7 @@
                 transform: translateX(0); 
             }
             &._active span {
-                margin:0px 5px;
+                margin:0px 2px;
             }
         }
         &__menu {
@@ -476,6 +476,7 @@
     } 
 }
 
+
 @media (max-width:1000px) {
     .first {
 
@@ -538,5 +539,8 @@
 @media (orientation:landscape){
     .first {
         overflow: auto;
+    }
+    .first__rectangle {
+        margin-top: 27px;
     }
 }

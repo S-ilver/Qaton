@@ -17,6 +17,7 @@
                 twoParent.classList.remove('_active');
             }
         });
+
           oneBtn.addEventListener('click',function (){
             oneContent.classList.toggle('_active');
             this.classList.toggle('_active');
